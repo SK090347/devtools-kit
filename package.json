@@ -1,7 +1,7 @@
 {
   "name": "devtools-kit",
   "version": "1.0.0",
-  "description": "Small focused TypeScript CLI toolkit — json-pretty, uuid, hash, serve-headers.",
+  "description": "Small focused TypeScript CLI toolkit \u2014 json-pretty, uuid, hash, serve-headers.",
   "type": "module",
   "bin": {
     "devtools-kit": "./dist/cli.js",
@@ -22,7 +22,7 @@
     "json"
   ],
   "author": "Sumit Kumar Ta",
-  "license": "MIT",
+  "license": "(MIT OR Apache-2.0)",
   "engines": {
     "node": ">=18"
   },

@@ -66,3 +66,7 @@ Pure helpers under `src/lib/` are unit-tested; CLI commands are thin wrappers.
 ## License
 
 MIT © Sumit Kumar Ta
+
+## License
+
+Dual-licensed under [MIT](./LICENSE) and [Apache-2.0](./LICENSE-APACHE). See [NOTICE](./NOTICE).
