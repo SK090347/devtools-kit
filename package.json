@@ -1,0 +1,35 @@
+{
+  "name": "devtools-kit",
+  "version": "1.0.0",
+  "description": "Small focused TypeScript CLI toolkit — json-pretty, uuid, hash, serve-headers.",
+  "type": "module",
+  "bin": {
+    "devtools-kit": "./dist/cli.js",
+    "dtk": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsx src/cli.ts"
+  },
+  "keywords": [
+    "cli",
+    "typescript",
+    "developer-tools",
+    "uuid",
+    "hash",
+    "json"
+  ],
+  "author": "Sumit Kumar Ta",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
