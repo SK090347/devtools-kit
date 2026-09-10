@@ -1,10 +1,11 @@
 # devtools-kit
 
+[![Vitest](https://img.shields.io/badge/tested%20with-Vitest-6E9F18?logo=vitest&logoColor=white)](https://vitest.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: MIT OR Apache-2.0](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue.svg)](./NOTICE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-green)](https://nodejs.org/)
 
-Small, focused TypeScript CLI toolkit for everyday tasks. Ships as `devtools-kit` / `dtk`.
+Small, focused TypeScript CLI for everyday engineering tasks. Ships as `devtools-kit` / `dtk`.
 
 **Author:** [Sumit Kumar Ta](https://github.com/SK090347)
 
@@ -55,7 +56,7 @@ npm run typecheck
 npm run build
 ```
 
-Pure helpers under `src/lib/` are unit-tested; CLI commands are thin wrappers.
+Pure helpers under `src/lib/` are unit-tested with Vitest; CLI commands are thin wrappers.
 
 ## Design choices
 
@@ -65,8 +66,6 @@ Pure helpers under `src/lib/` are unit-tested; CLI commands are thin wrappers.
 
 ## License
 
-MIT © Sumit Kumar Ta
-
-## License
-
 Dual-licensed under [MIT](./LICENSE) and [Apache-2.0](./LICENSE-APACHE). See [NOTICE](./NOTICE).
+
+MIT / Apache-2.0 © Sumit Kumar Ta
