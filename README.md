@@ -1,9 +1,7 @@
 # devtools-kit
 
 [![Vitest](https://img.shields.io/badge/tested%20with-Vitest-6E9F18?logo=vitest&logoColor=white)](https://vitest.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![License: MIT OR Apache-2.0](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue.svg)](./NOTICE)
-[![Node](https://img.shields.io/badge/node-%3E%3D18-green)](https://nodejs.org/)
 
 Small, focused TypeScript CLI for everyday engineering tasks. Ships as `devtools-kit` / `dtk`.
 
